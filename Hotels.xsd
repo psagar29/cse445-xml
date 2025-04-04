@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+
+  <!-- 
+    Root element: Hotels
+    Contains multiple Hotel elements.
+  -->
+  <xs:element name="Hotels">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Hotel" type="HotelType" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!--
+    Each Hotel has:
+      - A required attribute Rating
+      - Sub-elements: Name, multiple Phone, Address
+  -->
+  <xs:complexType name="HotelType">
+    <xs:sequence>
+      <xs:element name="Name" type="xs:string"/>
+      <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="Address" type="AddressType"/>
+    </xs:sequence>
+    <!-- Required attribute "Rating" -->
+    <xs:attribute name="Rating" type="xs:decimal" use="required"/>
+  </xs:complexType>
+
+  <!--
+    Address has elements Number, Street, City, State, Zip
+    and an optional attribute NearestAirport
+  -->
+  <xs:complexType name="AddressType">
+    <xs:sequence>
+      <xs:element name="Number" type="xs:string"/>
+      <xs:element name="Street" type="xs:string"/>
+      <xs:element name="City" type="xs:string"/>
+      <xs:element name="State" type="xs:string"/>
+      <xs:element name="Zip" type="xs:string"/>
+    </xs:sequence>
+    <!-- Optional attribute -->
+    <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+</xs:schema>
