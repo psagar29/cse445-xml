@@ -16,7 +16,7 @@
     <Hotel Rating="3.5">
         <Name>Motel6 Downtown</Name>
         <Phone>602-111-2222</Phone>
-        <Address NearstAirport="PHX Airport">
+        <Address>
             <Number>500</Number>
             <Street>Main Street</Street>
             <City>Phoenix</City>
@@ -65,7 +65,7 @@
     <Hotel Rating="4.3">
         <Name>Courtyard by Marriott</Name>
         <Phone>480-606-1234</Phone>
-        <Address NearstAirport="Mesa Gateway">
+         <Address>
             <Number>55</Number>
             <Street>Broadway Rd</Street>
             <City>Mesa</City>
@@ -102,7 +102,7 @@
         <Name>Drury Inn &amp; Suites</Name>
         <Phone>480-555-5151</Phone>
         <Phone>877-555-9876</Phone>
-        <Address NearstAirport="Sky Harbor">
+        <Address>
             <Number>333</Number>
             <Street>E Van Buren St</Street>
             <City>Phoenix</City>
@@ -123,15 +123,4 @@
         </Address>
     </Hotel>
 
-    <Hotel Rating="4.1">
-        <Name>Graduate Tempe Copy</Name>
-        <Phone>480-555-2021</Phone>
-        <Address>
-            <Number>225</Number>
-            <Street>E Apache Blvd</Street>
-            <City>Tempe</City>
-            <State>AZ</State>
-            <Zip>85281</Zip>
-        </Address>
-    </Hotel>
 </Hotels>
