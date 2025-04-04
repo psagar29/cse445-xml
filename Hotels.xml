@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels>
-    <!-- 1 -->
     <Hotel Rating="4.2">
         <Name>Westin Tempe</Name>
         <Phone>480-968-8885</Phone>
         <Phone>800-937-8461</Phone>
-        <Address NearestAirport="Sky Harbor">
+        <Address NearstAirport="Sky Harbor">
             <Number>11</Number>
             <Street>E 7th St</Street>
             <City>Tempe</City>
@@ -14,11 +13,10 @@
         </Address>
     </Hotel>
 
-    <!-- 2 -->
     <Hotel Rating="3.5">
         <Name>Motel6 Downtown</Name>
         <Phone>602-111-2222</Phone>
-        <Address NearestAirport="PHX Airport">
+        <Address NearstAirport="PHX Airport">
             <Number>500</Number>
             <Street>Main Street</Street>
             <City>Phoenix</City>
@@ -27,12 +25,10 @@
         </Address>
     </Hotel>
 
-    <!-- 3 -->
     <Hotel Rating="4.0">
         <Name>Hyatt Regency Phoenix</Name>
         <Phone>602-252-1234</Phone>
         <Address>
-            <!-- No NearestAirport attribute here, so it's omitted -->
             <Number>122</Number>
             <Street>N 2nd St</Street>
             <City>Phoenix</City>
@@ -41,11 +37,10 @@
         </Address>
     </Hotel>
 
-    <!-- 4 -->
     <Hotel Rating="4.1">
         <Name>Marriott Phoenix Resort</Name>
         <Phone>602-555-0199</Phone>
-        <Address NearestAirport="Sky Harbor">
+        <Address NearstAirport="Sky Harbor">
             <Number>200</Number>
             <Street>S East St</Street>
             <City>Phoenix</City>
@@ -54,13 +49,11 @@
         </Address>
     </Hotel>
 
-    <!-- 5 -->
     <Hotel Rating="3.9">
         <Name>Hilton Garden Inn</Name>
         <Phone>480-555-8080</Phone>
         <Phone>888-555-1200</Phone>
         <Address>
-            <!-- omitting NearestAirport here -->
             <Number>400</Number>
             <Street>W University Dr</Street>
             <City>Tempe</City>
@@ -69,11 +62,10 @@
         </Address>
     </Hotel>
 
-    <!-- 6 -->
     <Hotel Rating="4.3">
         <Name>Courtyard by Marriott</Name>
         <Phone>480-606-1234</Phone>
-        <Address NearestAirport="Mesa Gateway">
+        <Address NearstAirport="Mesa Gateway">
             <Number>55</Number>
             <Street>Broadway Rd</Street>
             <City>Mesa</City>
@@ -82,11 +74,10 @@
         </Address>
     </Hotel>
 
-    <!-- 7 -->
     <Hotel Rating="4.0">
         <Name>Sheraton Phoenix Downtown</Name>
         <Phone>602-555-9898</Phone>
-        <Address NearestAirport="Sky Harbor">
+        <Address NearstAirport="Sky Harbor">
             <Number>340</Number>
             <Street>N 3rd St</Street>
             <City>Phoenix</City>
@@ -95,12 +86,10 @@
         </Address>
     </Hotel>
 
-    <!-- 8 -->
     <Hotel Rating="3.8">
         <Name>Renaissance Phoenix</Name>
         <Phone>602-555-0101</Phone>
         <Address>
-            <!-- Omit NearestAirport again -->
             <Number>100</Number>
             <Street>N 1st St</Street>
             <City>Phoenix</City>
@@ -109,12 +98,11 @@
         </Address>
     </Hotel>
 
-    <!-- 9 -->
     <Hotel Rating="4.5">
         <Name>Drury Inn &amp; Suites</Name>
         <Phone>480-555-5151</Phone>
         <Phone>877-555-9876</Phone>
-        <Address NearestAirport="Sky Harbor">
+        <Address NearstAirport="Sky Harbor">
             <Number>333</Number>
             <Street>E Van Buren St</Street>
             <City>Phoenix</City>
@@ -123,12 +111,20 @@
         </Address>
     </Hotel>
 
-    <!-- 10 -->
     <Hotel Rating="4.1">
         <Name>Graduate Tempe</Name>
         <Phone>480-555-2020</Phone>
         <Address>
-            <!-- Omit NearestAirport -->
+            <Number>225</Number>
+            <Street>E Apache Blvd</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.1">
+        <Name>Graduate Tempe Copy</Name> <Phone>480-555-2021</Phone> <Address>
             <Number>225</Number>
             <Street>E Apache Blvd</Street>
             <City>Tempe</City>
