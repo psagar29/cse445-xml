@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels>
     <Hotel Rating="4.2">
-        <Name>Westin Tempe</Name>
+        <Name>Westin</Name>
         <Phone>480-968-8885</Phone>
         <Phone>800-937-8461</Phone>
         <Address NearstAirport="Sky Harbor">
             <Number>11</Number>
-            <Street>E 7th St</Street>
+            <Street>E.7th St</Street>
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
@@ -124,7 +124,9 @@
     </Hotel>
 
     <Hotel Rating="4.1">
-        <Name>Graduate Tempe Copy</Name> <Phone>480-555-2021</Phone> <Address>
+        <Name>Graduate Tempe Copy</Name>
+        <Phone>480-555-2021</Phone>
+        <Address>
             <Number>225</Number>
             <Street>E Apache Blvd</Street>
             <City>Tempe</City>
