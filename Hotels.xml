@@ -114,17 +114,7 @@
         </Address>
     </Hotel>
 
-    <Hotel Rating="4.1">
-        <Name>Graduate Tempe</Name>
-        <Phone>480-555-2020</Phone>
-        <Address>
-            <Number>225</Number>
-            <Street>E Apache Blvd</Street>
-            <City>Tempe</City>
-            <State>AZ</State>
-            <Zip>85281</Zip>
-        </Address>
-    </Hotel>
+   
 
     <Hotel Rating="4.1">
         <Name>Graduate Tempe Copy</Name>
