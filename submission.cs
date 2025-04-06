@@ -99,7 +99,7 @@ namespace ConsoleApp1 // Required namespace
                 }
 
                 // Convert the modified XmlDocument to JSON
-                string jsonText = JsonConvert.SerializeXmlNode(xmlDoc, Newtonsoft.Json.Formatting.Indented, false);
+                string jsonText = JsonConvert.SerializeXmlNode(xmlDoc, Newtonsoft.Json.Formatting.None, false);
 
                 // Replace "@" attribute prefix with "_"
                 jsonText = jsonText.Replace("\"@", "\"_");
